@@ -1,5 +1,11 @@
 import streamlit as st
+import joblib
 
-st.title('🎈 LOOK IMMA CHANGE THIS RN')
+def main():
+  st.title('Dermatology Machine Learning')
+  st.info('This app uses machine learning')
 
-st.write('Will Use machine learning typeshii')
+  erytheman st.slider('Erythema', min_value=0, max_value=3, value 2)
+
+if __name__ == "__main__":
+  main()
